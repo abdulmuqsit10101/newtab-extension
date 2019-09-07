@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+<!--    <link rel="shortcut icon" href="https://www.youtube.com/favicon.ico" />-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <meta name="theme-color" content="#000000" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -19,11 +20,27 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>New Tab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<title>My Extension</title>-->
   </head>
-  <body>
+  <body style="background-color: black" >
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <!--<div id="main" onmousemove="ftn()">-->
+    <div id="root" style="z-index: 1; color: #fff;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+" >
+    </div>
+    <!--<div class="para" id="para2"></div>-->
+    <!--</div>-->
+
+<!--    https://www.google.com/s2 /  favicons ? domain = stackoverflow.com-->
+
+
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -34,5 +51,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+  <!--<script>-->
+    <!--function ftn() {-->
+      <!--$(document).mousemove(function (event) {-->
+        <!--$("#para2").css({'left': event.pageX+ 'px', 'top': event.pageY+ 'px'});-->
+        <!--// console.log("x: ", event.pageX - 20 + 'px', "y: ", event.pageY - 20 + 'px');-->
+      <!--});-->
+    <!--}-->
+  <!--</script>-->
   </body>
 </html>
